@@ -1,0 +1,25 @@
+{
+  "name": "fe-tool",
+  "version": "1.0.0",
+  "description": "家园前端开发库",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ncuhome/N.git"
+  },
+  "author": "ncuhome",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ncuhome/N/issues"
+  },
+  "homepage": "https://github.com/ncuhome/N#readme",
+  "devDependencies": {
+    "eslint": "^3.12.2",
+    "eslint-config-standard": "^6.2.1",
+    "eslint-plugin-promise": "^3.4.0",
+    "eslint-plugin-standard": "^2.0.1"
+  }
+}
