@@ -4,5 +4,10 @@ module.exports = {
     "plugins": [
         "standard",
         "promise"
-    ]
+    ],
+    'env': {
+    'node':true,
+    'es6': true,
+    'browser': true
+  }
 };
