@@ -1,9 +1,9 @@
 ;(function (root, factory) {
   'use strict'
   if (typeof exports === 'object') {
-    exports = module.exports = factory
+    exports = module.exports = factory()
   } else {
-    root.ajax = factory
+    root.ajax = factory()
   }
 })(this, function (conf) {
   'use strict'
