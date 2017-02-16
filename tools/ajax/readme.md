@@ -17,6 +17,7 @@
   })
 </script>
 ```
+#### or
 
 ```javascript
 import promiseAjax from 'ajax.min.js'
@@ -26,4 +27,14 @@ ajax.get('/api/token').then(data => {
   }).cache(e => {
     <!-- your code -->
   })
+```
+
+## configObj
+
+ajax的顶级配置项
+```javascript
+  {
+    baseUrl: 'String'，
+    headers: 'Object'
+  }
 ```
