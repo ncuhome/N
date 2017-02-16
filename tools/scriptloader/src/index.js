@@ -1,4 +1,4 @@
-import ajax from '../ajax/simple_ajax.js'
+import ajax from '../../ajax/src/index.js'
 
 const createDom = function (url) {
   let script = document.createElement('script')
